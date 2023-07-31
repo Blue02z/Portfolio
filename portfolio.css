@@ -7,7 +7,6 @@
 }
 
 
-
 body{
     background: linear-gradient(317deg, #000 10%, #130547 100%) no-repeat;
     width: 100%;
@@ -24,19 +23,17 @@ header nav ul li a{
     font-size: 20px;
     font-family: 'Poppins', sans-serif;
     text-shadow: #00000065 0px 2px;
+
 }
 
-header nav ul{
-    
-    padding-right: 50px;
-    
-}
 
 header nav ul li{
     margin-top: 15px;
     padding-left: 90px;
     display: inline-block;
 }
+
+
 
 header nav ul li a:hover{
     color: #0083CC;
@@ -73,7 +70,6 @@ nav{
     color: white;
     margin-bottom: -20px;
     text-shadow: #00000065 0px 6px 6px;
-
 }
 
 .infos h4{
@@ -91,7 +87,7 @@ nav{
 }
 
 #foto_perfil{
-    width: 25vw;
+    width: 355px;
     height: 355px;
     margin-top: 75px;
     border-radius: 50%;
@@ -130,7 +126,7 @@ nav{
     padding-bottom: 5px;
     cursor: pointer;
     transition: cubic-bezier(0.075, 0.82, 0.165, 1) 0.5s;
-    border: 3px rgb(255, 255, 255) solid;
+    border: 3px #d6249f solid;
     border-radius: 50%;
 }
 
@@ -228,7 +224,6 @@ nav{
 
 #section2 img{
     display: flex;
-    float: right;
     width: 360px;
     height: 450px;
     margin-top: 30px;
@@ -247,7 +242,7 @@ nav{
 .container p{
     color: #FFF;
     text-shadow: #00000065 0px 6px 6px;
-    font-family: Poppins;
+    font-family: "Poppins";
     font-size: 18px;
 
 }
@@ -271,22 +266,13 @@ nav{
     color: #0083CC;
     transition: cubic-bezier(0.075, 0.82, 0.165, 1) 1s;
     border-bottom: #0083CC solid 4px;
-
-
 }
 
 .circulo3 h5 a:hover{
     color:#0083CC;
     transition: cubic-bezier(0.075, 0.82, 0.165, 1) 1s;
     border-bottom: #0083CC solid 4px;
-
-
 }
-
-.circulo p, .circulo2 p, .circulo3 p, .circulo4 p, .circulo5 p{
-    padding-right: 50px;
-}
-
 
 
 
@@ -370,6 +356,94 @@ nav{
     flex-wrap: wrap;
 }
 
+#section4 h3{
+    color: white;
+    text-align: center;
+    font-size: 55px;
+    margin-bottom: 50px;
+    font-family: "poppins";
+}
+
+#section4{
+    width: 100%;
+    margin-bottom: 100px;
+    text-shadow: black 0px 2px;
+
+}
+
+#section4 img{
+    width: 625px;
+    height: 301px;
+    border-radius: 6px;
+}
+
+.textos{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-family: "poppins";
+    margin-left: 30px;
+}
+
+.container3{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.textos h1{
+    font-size: 50px;
+    text-shadow: black 0px 2px;
+
+}
+
+.textos{
+
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+}
+
+.textos p:nth-child(2){
+    width: 512px;
+    text-shadow: black 0px 2px;
+
+}
+
+.git1 p, .git2 p{
+    padding-right: 10px;
+    color: #264DE4;
+    font-family: "poppins";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-shadow: black 0px 2px;
+
+}
+
+.git1, .git2{
+    display: flex;
+    padding-top: 10px;
+}
+
+.git1 h5, .git2 h5{
+    color: #0083CC;
+    font-family: Poppins;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-decoration-line: underline;
+    text-shadow: black 0px 2px;
+
+}
+
+.git1 h5:hover, .git2 h5:hover{
+    transition: cubic-bezier(0.175, 0.885, 0.32, 1.275) 1s;
+    color: #064699;
+}
+
 /* Responsividade para dispositivos moveis */
 
 @media  (max-width: 600px) {
@@ -383,12 +457,9 @@ nav{
    }
 
     header nav ul li{
-        margin-top: 15px;
         display: block;
-        text-align: center;
+        padding: 0;
     }
-    
-
 
     header nav ul li a:hover{
         color: #0083CC;
@@ -400,6 +471,7 @@ nav{
         height: 62px;
         width: 100%;
         padding-bottom: 30px;
+        text-align: center;
     }
 
     .infos{
@@ -424,7 +496,7 @@ nav{
         color: white;
         margin-bottom: -20px;
         text-shadow: #00000065 0px 6px 6px;
-        width: 350px;
+
         text-align: center;
         width: 0 auto;
 
@@ -447,8 +519,8 @@ nav{
     }
     
     #foto_perfil{
-        width: 250px;
-        height: 355px;
+        width: 255px;
+        height: 255px;
         margin-top: 75px;
         border-radius: 50%;
         box-shadow: #264DE4 8px 10px 10px;
@@ -483,7 +555,7 @@ nav{
 
     
     #texto p{
-        font-size: 15px;
+        font-size: 20px;
         color: white;
         text-shadow: #00000065 0px 6px 6px;
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -492,10 +564,26 @@ nav{
         text-align: center;
 
     }
+
+    .circulo, .circulo2, .circulo3, .circulo4, .circulo5{
+        padding-top: 20px;
+        display: flex;
+        flex-direction: column;
+       text-align: center;
+    }
+    
+   
+    .container h5{
+        color: #264DE4;
+        text-shadow: #00000065 0px 6px 6px;
+        font-family: "Poppins";
+        font-size: 16px;
+        padding-left: 0;
+    }
       
     #section2 img{
-        width: 159px;
-        height: 181px;
+        width: 259px;
+        height: 281px;
         margin-top: 30px;
         border-radius: 6px 6px 6px 6px;
 
@@ -594,5 +682,80 @@ nav{
         flex-direction: column;
         align-items: center;
     }
+
+    #section4 h3{
+        font-size: 35px;
+
+    }
+    
+    #section4{
+        width: 100%;
+        margin-bottom: 100px;
+    }
+    
+    #section4 img{
+        width: 270px;
+        height: 270px;
+        border-radius: 6px;
+    }
+    
+    .textos{
+        display: flex;
+        flex-direction: column;
+        color: white;
+        font-family: "poppins";
+        margin-left: 0;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .container3{
+        display: flex;
+        flex-wrap: none;
+        justify-content: center;
+        flex-direction: none;
+    }
+    
+    .textos h1{
+        font-size: 30px;
+    }
+
+    
+    .textos p:nth-child(2){
+        width: 307px;
+
+    }
+    
+    .git1 p, .git2 p{
+        color: #264DE4;
+        font-family: "poppins";
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+    
+    .git1, .git2{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    
+    .git1 h5, .git2 h5{
+        color: #0083CC;
+        font-family: Poppins;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        text-decoration-line: underline;
+    }
+    
+    .git1 h5:hover, .git2 h5:hover{
+        transition: cubic-bezier(0.175, 0.885, 0.32, 1.275) 1s;
+        color: #064699;
+    }
+    
 }
 
