@@ -8,7 +8,7 @@
 
 
 body{
-    background: linear-gradient(317deg, #000 10%, #130547 100%) no-repeat;
+    background: linear-gradient(135deg, #130547 0%, #000 100%);
     width: 100%;
     
 }
@@ -26,11 +26,16 @@ header nav ul li a{
 
 }
 
-
 header nav ul li{
     margin-top: 15px;
     padding-left: 90px;
     display: inline-block;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1) 1s;
+}
+
+header nav ul li:hover{
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1) 1s;
+    transform: scale(1.2);
 }
 
 
@@ -39,6 +44,7 @@ header nav ul li a:hover{
     color: #0083CC;
     transition: cubic-bezier(0.075, 0.82, 0.165, 1) 1s;
     border-bottom: #0083CC solid 4px;
+
 }
 
 nav{
@@ -113,6 +119,8 @@ nav{
     padding-left: 10px;
     padding-right: 10px;
     padding-bottom: 5px;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1) 0.5s;
+
 }
 
 #insta:hover{
@@ -128,6 +136,8 @@ nav{
     transition: cubic-bezier(0.075, 0.82, 0.165, 1) 0.5s;
     border: 3px #d6249f solid;
     border-radius: 50%;
+    transform: scale(1.3);
+
 }
 
 #linkedin{
@@ -140,6 +150,8 @@ nav{
     padding-left: 10px;
     padding-right: 10px;
     padding-bottom: 5px;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1) 0.5s;
+
 }
 
 #linkedin:hover{
@@ -155,6 +167,8 @@ nav{
     padding-bottom: 5px;
     cursor: pointer;
     transition: cubic-bezier(0.075, 0.82, 0.165, 1) 0.5s;
+    transform: scale(1.3);
+
 }
 
 #git{
@@ -167,6 +181,8 @@ nav{
     padding-left: 10px;
     padding-right: 10px;
     padding-bottom: 5px;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1) 0.5s;
+
 }
 
 #git:hover{
@@ -182,6 +198,7 @@ nav{
     padding-bottom: 5px;
     cursor: pointer;
     transition: cubic-bezier(0.075, 0.82, 0.165, 1) 0.5s;
+    transform: scale(1.3);
 }
 
 
@@ -253,6 +270,7 @@ nav{
     font-family: "Poppins";
     font-size: 16px;
     padding-left: 50px;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1) 1s;
 }
 
 .circulo, .circulo2, .circulo3, .circulo4, .circulo5{
@@ -260,6 +278,7 @@ nav{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    
 }
 
 .circulo4 h5 a:hover{
@@ -272,9 +291,19 @@ nav{
     color:#0083CC;
     transition: cubic-bezier(0.075, 0.82, 0.165, 1) 1s;
     border-bottom: #0083CC solid 4px;
+
 }
 
+.circulo4 h5:hover{
 
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1) 1s;
+    transform: scale(1.4);
+}
+
+.circulo3 h5:hover{
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1) 1s;
+    transform: scale(1.4);
+}
 
 
 #section3{
@@ -291,7 +320,7 @@ nav{
     padding-top: 20px;
     color: #0083CC;
     font-family: "poppins";
-    font-size: 5vw;
+    font-size: 55px;
     text-shadow: #00000065 0px 6px 6px;
     text-align: center;
     display: flex;
@@ -302,7 +331,7 @@ nav{
 #section3 h3{
     color: white;
     font-family: "poppins";
-    font-size: 4vw;
+    font-size: 35px;
     text-shadow: #00000065 0px 6px 6px;
     text-align: center;
 
@@ -359,7 +388,7 @@ nav{
 #section4 h3{
     color: white;
     text-align: center;
-    font-size: 55px;
+    font-size: 45px;
     margin-bottom: 50px;
     font-family: "poppins";
 }
@@ -444,6 +473,125 @@ nav{
     color: #064699;
 }
 
+.canva{
+    border: 8px #6A31EF dashed;
+    border-radius: 50%;
+    width: 90px;
+}
+
+.canva img{
+    border-radius: 50%;
+}
+
+.figma{
+    border: 8px #0ACF83 dashed;
+    border-radius: 50%;
+    width: 90px;
+}
+
+.gimp{
+    border: 8px #343434 dashed;
+    border-radius: 50%;
+    width: 90px;
+}
+
+#section5{
+    margin-bottom: 150px;
+}
+
+#section5 h1{
+    padding-top: 20px;
+    color: #0083CC;
+    font-family: "poppins";
+    font-size: 55px;
+    text-shadow: #00000065 0px 6px 6px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    
+}
+
+#section5 h3{
+    color: white;
+    font-family: "poppins";
+    font-size: 35px;
+    text-shadow: #00000065 0px 6px 6px;
+    text-align: center;
+
+}
+
+#section6 h1{
+    color: white;
+    font-family: "poppins";
+    font-size: 55px;
+    text-shadow: #00000065 0px 6px 6px;
+    text-align: center;
+}
+
+.container_imgs{
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.container_imgs img{
+    width: 308px;
+    height: 301px;
+    border-radius: 8px;
+}
+
+.container_imgs img{
+    width: 308px;
+    height: 301px;
+    border-radius: 8px;
+}
+
+.container_imgs img{
+    width: 308px;
+    height: 301px;
+    border-radius: 8px;
+    transition: cubic-bezier(0.165, 0.84, 0.44, 1) 1s;
+}
+
+
+.wrap1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 15px;
+}
+
+.wrap1 p{
+    width: 297px;
+    text-align: center;
+    color: #FFF;
+    text-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    font-family: Poppins;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    }
+    
+    .wrap1 img:hover{
+        transform: scale(1.2);
+        transition: cubic-bezier(0.165, 0.84, 0.44, 1) 1s;
+        margin-bottom: 20px;
+        cursor: pointer;
+        box-shadow: #064699 5px 5px 5px;
+    }
+
+    .container_imgs:nth-child(5){
+        padding-top: 50px;
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+ 
+    }
+    
 /* Responsividade para dispositivos moveis */
 
 @media  (max-width: 600px) {
@@ -496,7 +644,6 @@ nav{
         color: white;
         margin-bottom: -20px;
         text-shadow: #00000065 0px 6px 6px;
-
         text-align: center;
         width: 0 auto;
 
@@ -546,8 +693,8 @@ nav{
         color: #0083CC;
         text-shadow: #00000065 0px 6px 6px;
         border-bottom: #0083CC 3px solid;
-        font-size: 40px;
-        width: 228px;
+        font-size: 45px;
+        width: 258px;
         margin: 0 auto;
         
     }
@@ -577,10 +724,15 @@ nav{
         color: #264DE4;
         text-shadow: #00000065 0px 6px 6px;
         font-family: "Poppins";
-        font-size: 16px;
         padding-left: 0;
     }
+
+
       
+    .container h5 a{
+        font-size: 15px;
+    }
+
     #section2 img{
         width: 259px;
         height: 281px;
@@ -601,17 +753,19 @@ nav{
         color: #FFF;
         text-shadow: #00000065 0px 6px 6px;
         font-family: "Poppins";
-        font-size: 12px;
+        font-size: 20px;
     
     }
     
     .container h5{
-        color: #264DE4;
-        text-shadow: #00000065 0px 6px 6px;
-        font-family: "Poppins";
-        font-size: 12px;
-
+            font-size: 20px;
+            padding-left: none;
     }
+
+    .container h5 a{
+        font-size: 20px;
+        padding-left: none;
+}
 
     #section3 h1{
         padding-top: 20px;
@@ -639,8 +793,8 @@ nav{
         padding-left: 10px;
         padding-right: 10px;
         padding-bottom: 8px;
-        width: 35px;
-        height: 35px;
+        width: 45px;
+        height: 45px;
     }
     
     .borda2{
@@ -661,6 +815,21 @@ nav{
         width: 70px;
     }
     
+
+    .canva{
+        
+        width: 70px;
+    }
+    
+    .figma{
+        
+        width: 70px;
+    }
+    
+    .gimp{
+        
+        width: 70px;
+    }
     
     .borda{
         margin-top: 40px;
@@ -671,7 +840,7 @@ nav{
     .borda h2{
         color: white;
         font-family: "poppins";
-        font-size: 18px;
+        font-size: 28px;
         margin-top: 14px;
         text-shadow: #00000065 0px 6px 6px;
         text-align: center;
@@ -684,7 +853,7 @@ nav{
     }
 
     #section4 h3{
-        font-size: 35px;
+        font-size: 55px;
 
     }
     
@@ -757,5 +926,8 @@ nav{
         color: #064699;
     }
     
+    #section5 h1{
+        font-size: 45px;
+    }
 }
 
